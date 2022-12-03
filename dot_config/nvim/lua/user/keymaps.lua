@@ -22,6 +22,11 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
+-- Save and quit file 
+keymap("n", "<leader>w", ":w<CR>", opts)
+keymap("n", "<leader>wq", ":wqa!<CR>", opts)
+keymap("n", "<leader>q", ":q<CR>", opts)
+
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
 keymap("n", "<C-Down>", ":resize +2<CR>", opts)
