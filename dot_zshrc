@@ -125,3 +125,4 @@ export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 source /Users/yangziyin/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+test -e /Users/yangziyin/.iterm2_shell_integration.zsh && source /Users/yangziyin/.iterm2_shell_integration.zsh || true
